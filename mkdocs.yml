@@ -1,0 +1,38 @@
+site_name: ""
+
+docs_dir: pages
+
+nav:
+  - Cuentos: index.md
+  - Intentaste: intentaste.md
+
+theme:
+  name: material
+  font:
+    text: "Merriweather"
+    code: "Noto Sans Traditional Chinese"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.autohide
+    - content.code.annotate
+    - content.tooltips
+    - header.autohide
+
+extra_css:
+  - styles/cuento.css
+
+extra_javascript:
+  - styles/cuento.js
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
