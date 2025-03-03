@@ -3,8 +3,11 @@ site_name: ""
 docs_dir: pages
 
 nav:
-  - Cuentos: index.md
-  - Intentaste: intentaste.md
+  - Home: https://robin.ar
+  - Índice: index.md
+  - Cuentos: 
+    - intentaste.md
+    - Miembro Premium: miembro-premium.md
 
 theme:
   name: material
