@@ -5,9 +5,14 @@ docs_dir: pages
 nav:
   - Home: https://robin.ar
   - Índice: index.md
-  - Cuentos: 
+  - Ficción: 
+    - el_malecón.md
     - intentaste.md
+    - laguna.md
     - Miembro PREMIUM: miembro-premium.md
+  - No-ficción:
+    - autocomplete.md
+    - Dairik: dairik.md
 
 theme:
   name: material
